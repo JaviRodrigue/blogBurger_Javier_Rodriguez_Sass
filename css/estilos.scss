@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+}
+*::selection{
+    background-color: var(--color1);
+    color:var(--color0);
+}
+/* ---------Declaracion de las variables - Inicio ------------*/
+:root{
+    --color0:rgb(226, 106, 8);
+    --color1:#212529;
+    --color2:antiquewhite;
+}
+/* ---------Declaracion de las variables - Fin ------------*/
+
+/* -----------------------------Header - Inicio------------------------------------ */
+.navBarImg{
+    img{
+    width: 5rem;
+    padding-left:1.5rem;
+    transition: 1s;}
+}
+.navBarImg img:hover{
+    transform: scale(1.1);
+}
+.navBarTitulo{
+    color: rgb(226, 106, 8);
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.collapse{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin-left:2.5rem;
+}
+.nav-item{
+    a{
+    font-size: 1.2rem;}
+}
+
+/* -----------------------------Header - Fin------------------------------------ */
+
+/* -----------------------------Main - Inicio------------------------------------ */
+.jumbotron{
+    background-image: url(https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?b=1&k=20&m=1295387240&s=170667a&w=0&h=KtWYFjSBgpNgVkE3P-WKZ2F6V-VxyUBBtJIP_k8IANM=);
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumboTitulo{
+    color:var(--color0);
+    text-shadow: black 5px 0px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.6rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumboP{
+    color:var(--color0);
+    text-shadow: black 3px 0px 0px;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    padding-left: 2rem;
+    margin-right: 5rem;
+}
+.boton .btn{
+    font-size: 2rem;
+    background-color: rgb(226, 106, 8);
+}
+.boton .btn:hover{
+    background-color: rgb(167, 75, 0);
+}
+
+/* -----------------------------Main - Fin------------------------------------ */
+
+/* --------------------------Nosotros - inicio------------------------------ */
+.nos{
+    color: rgb(226, 106, 8);
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.nosotros{
+    background-color: var(--color2);
+}
+.fila1{
+    padding-top: 5rem;
+}
+.fila1 h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fila1 img{
+    width: 60rem;
+    margin:auto;
+    padding-top:2rem;
+}
+.fila1 p{
+    padding-top:2rem;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
+}
+/* --------------------------Nosotros - inicio------------------------------ */
+
+/* -------------------------Footer - Inicio------------------------------------ */
+footer{
+    padding: 50px 0px;
+    background-image: url(imagenes/fondoFoo1.svg);
+    background-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.titleFoo{
+    color:rgb(226, 106, 8);
+}
+
+.box__footer .explicacionFoo{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h4{
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+.box__footer img{
+    width: 1.8rem;
+}
