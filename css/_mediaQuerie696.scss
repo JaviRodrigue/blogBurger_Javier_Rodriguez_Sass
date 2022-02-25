@@ -1,0 +1,29 @@
+@media(max-width:696px) and (min-width:476px){
+    .jumboTitulo{
+        font-size: 2.5rem;
+    }
+    .jumboP{
+        font-size: 2rem;
+    }
+}
+@media(max-width:476px){
+    .jumboTitulo{
+        font-size: 1.6rem;
+    }
+    .jumboP{
+        font-size: 1.5rem;
+    }
+    .boton{
+        .btn{
+            font-size: 1.5rem;
+        }
+    }
+    .navBarTitulo{
+        font-size: 1.3rem;
+    }
+    .navBarImg{
+        img{
+            width: 4rem;
+        }
+    }
+}

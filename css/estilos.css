@@ -3,23 +3,7 @@
   padding: 0;
 }
 
-*::-moz-selection {
-  background-color: var(--color1);
-  color: var(--color0);
-}
-
-*::selection {
-  background-color: var(--color1);
-  color: var(--color0);
-}
-
 /* ---------Declaracion de las variables - Inicio ------------*/
-:root {
-  --color0:rgb(226, 106, 8);
-  --color1:#212529;
-  --color2:antiquewhite;
-}
-
 /* ---------Declaracion de las variables - Fin ------------*/
 /* -----------------------------Header - Inicio------------------------------------ */
 .navBarImg img {
@@ -90,7 +74,7 @@
 }
 
 .jumboTitulo {
-  color: var(--color0);
+  color: #e26a08;
   text-shadow: black 5px 0px 0px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 3.6rem;
@@ -106,7 +90,7 @@
 }
 
 .jumboP {
-  color: var(--color0);
+  color: #e26a08;
   text-shadow: black 3px 0px 0px;
   font-size: 2.5rem;
   margin-left: 4rem;
@@ -120,14 +104,14 @@
 }
 
 .boton .btn:hover {
-  background-color: #a74b00;
+  background-color: #e26a08;
 }
 
 /* -----------------------------Main - Fin------------------------------------ */
 /* --------------------------Nosotros - inicio------------------------------ */
 .nos {
   color: #e26a08;
-  background-color: var(--color1);
+  background-color: #212529;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,7 +133,7 @@
 }
 
 .nosotros {
-  background-color: var(--color2);
+  background-color: antiquewhite;
 }
 
 .fila1 {
@@ -268,5 +252,32 @@ footer {
 
 .box__footer img {
   width: 1.8rem;
+}
+
+@media (max-width: 696px) and (min-width: 476px) {
+  .jumboTitulo {
+    font-size: 2.5rem;
+  }
+  .jumboP {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 476px) {
+  .jumboTitulo {
+    font-size: 1.6rem;
+  }
+  .jumboP {
+    font-size: 1.5rem;
+  }
+  .boton .btn {
+    font-size: 1.5rem;
+  }
+  .navBarTitulo {
+    font-size: 1.3rem;
+  }
+  .navBarImg img {
+    width: 4rem;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
